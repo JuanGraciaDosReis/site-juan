@@ -1,0 +1,51 @@
+h1{
+    color:red;
+    text-transform:capitalize;
+}
+
+
+.header{
+    /*background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fedrodrigues.com.br%2Fblog%2Fcomo-enfileirar-condicionalmente-scripts-no-wordpress%2F&psig=AOvVaw0d66-LH4obmbGlPiR4D8mR&ust=1665599196911000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDYo9bm2PoCFQAAAAAdAAAAABAN");*/
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #012340;
+    background-position-y: -100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.subtitulo{
+    background-color: #025939;
+    margin-top: 15px;
+}
+
+.jogos{
+    /*background-image: url("https://conteudo.imguol.com.br/c/entretenimento/c9/2018/11/27/street-fighter-1543324389133_v2_900x506.jpg.webp");*/
+    background-color: #027333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.footer{
+    background-color: #03A63C;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+p{
+    text-align: center;
+    border: 1px solid black;
+    outline-style: double;
+    outline-color: rgb(33, 108, 170);
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
